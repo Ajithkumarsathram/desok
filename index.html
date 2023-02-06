@@ -1,0 +1,1706 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>DESOK TECHNOLOGIES</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+
+    <!-- Favicon -->
+    <link href="img/favicon (2).png" rel="icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500&family=Jost:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- animation css-->
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--your cient-->
+    <!-- Testimonial Stylesheet -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+   
+ <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+ <script>
+    var i = 0;
+    
+    function fun() {
+    var res = "Width = " + window.outerWidth + "<br>" + "Height = " + window.outerHeight;
+    document.getElementById("para").innerHTML = res;
+    
+    var res1 = i += 1;
+    document.getElementById("s1").innerHTML = res1;
+    }
+    </script>
+
+
+<style>
+        
+        /**float butoon**/
+
+@media screen and (max-width:989px) {
+    #main {
+        display: none;
+    }
+}
+
+.stickyicon-list {
+    position: fixed;
+    top: 350px;
+    transform: translateY(-50%);
+}
+
+.stickyicon-list a {
+    display: block;
+    text-align: center;
+    padding: 8px;
+    transition: all 0.10s ease;
+    color: white;
+    font-size: 25px;
+}
+
+.stickyicon-list a:hover {
+    color: rgb(102, 4, 105);
+    width: 50px;
+}
+
+.facbook {
+    background: #3b5998;
+    color: white;
+}
+
+.twitter {
+    color: white;
+    background: #00acee;
+}
+
+.linkedin {
+    background: #0e76a8;
+    color: white;
+}
+
+.google {
+    color: white;
+    background: #3b5998;
+}
+
+.instagram {
+    background: #3f729b;
+    color: white;
+}
+
+.youtube {
+    color: white;
+    background: #c4302b;
+}
+
+
+/**float button end**/
+
+
+/********** Template CSS **********/
+
+#preview-css {
+    margin-bottom: 20px;
+    font-size: 18px;
+    text-align: center;
+    z-index: 9999999;
+    margin: 0 auto;
+}
+
+#text-preview {
+    width: 15px;
+    text-align: center;
+    position: relative;
+}
+
+@keyframes myAnimation {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 35px;
+    }
+}
+
+
+/* Hien thi cho Firefox */
+
+@-moz-keyframes myAnimation {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 50px;
+    }
+}
+
+
+/* Hien thi cho Safari and Chrome */
+
+@-webkit-keyframes myAnimation {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+
+/* Hien thi cho Opera */
+
+@-o-keyframes myAnimation {
+    from {
+        left: 0px;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+#text-preview {
+    animation: myAnimation 2s ease 0.5s infinite alternate running;
+    -moz-animation: myAnimation 2s ease 0.5s infinite alternate running;
+    -webkit-animation: myAnimation 2s ease 0.5s infinite alternate running;
+    -o-animation: myAnimation 2s ease 0.5s infinite alternate running;
+}
+
+.animate__animated_animate__bounce {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+.text-1,
+.text-2 {
+    color: #ffffff;
+    font-size: 18px;
+    font-size: 18px;
+}
+
+.text-1 {
+    animation: text1;
+}
+
+.text-2 {
+    animation: text2;
+}
+
+.text-1,
+.text-2 {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    animation-duration: 20s;
+    animation-timing-function: steps(25, end);
+    animation-iteration-count: infinite;
+}
+
+.text-1::after,
+.text-2::after {
+    content: "|";
+    position: absolute;
+    right: 0;
+    animation: caret infinite;
+    animation-duration: 1s;
+    animation-timing-function: steps(1, end);
+}
+
+@keyframes text2 {
+    0%,
+    50%,
+    100% {
+        width: 0;
+    }
+    60%,
+    90% {
+        width: 21.2em;
+    }
+}
+
+@keyframes text1 {
+    0%,
+    50%,
+    100% {
+        width: 0;
+    }
+    10%,
+    40% {
+        width: 17em;
+    }
+}
+
+@keyframes caret {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+:root {
+    --primary: #4294E3;
+    --secondary: #8F12FD;
+    --light: #F0F6FF;
+    --dark: #262B47;
+}
+
+
+/*** Spinner ***/
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+/*** Heading ***/
+
+h1,
+h2,
+.fw-bold {
+    font-weight: 700 !important;
+}
+
+h3,
+h4,
+.fw-semi-bold {
+    font-weight: 600 !important;
+}
+
+h5,
+h6,
+.fw-medium {
+    font-weight: 500 !important;
+}
+
+
+/*** Gradient Text & BG ***/
+
+.text-primary-gradient {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-secondary-gradient {
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bg-primary-gradient {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+.bg-secondary-gradient {
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+}
+
+
+/*** Button ***/
+
+.btn {
+    transition: .5s;
+}
+
+.btn.btn-primary-gradient,
+.btn.btn-secondary-gradient {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    color: #FFFFFF;
+    z-index: 1;
+}
+
+.btn.btn-primary-gradient::after,
+.btn.btn-secondary-gradient::after {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+    z-index: -1;
+    opacity: 0;
+}
+
+.btn.btn-primary-gradient,
+.btn.btn-secondary-gradient::after {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+.btn.btn-secondary-gradient,
+.btn.btn-primary-gradient::after {
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+}
+
+.btn.btn-primary-gradient:hover::after,
+.btn.btn-secondary-gradient:hover::after {
+    opacity: 1;
+}
+
+.btn-square {
+    width: 38px;
+    height: 38px;
+}
+
+.btn-sm-square {
+    width: 32px;
+    height: 32px;
+}
+
+.btn-lg-square {
+    width: 48px;
+    height: 48px;
+}
+
+.btn-square,
+.btn-sm-square,
+.btn-lg-square {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: normal;
+    border-radius: 50px;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 45px;
+    bottom: 45px;
+    z-index: 99;
+    border: none;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+
+/*** Navbar ***/
+
+.navbar-light .navbar-nav .nav-link {
+    position: relative;
+    margin-right: 25px;
+    padding: 45px 0;
+    font-family: 'Jost', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--light) !important;
+    outline: none;
+    transition: .5s;
+}
+
+.navbar-light .navbar-nav .nav-link::before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: 10px solid;
+    border-color: var(--light) transparent transparent transparent;
+    transition: .5s;
+}
+
+.sticky-top.navbar-light .navbar-nav .nav-link {
+    padding: 20px 0;
+    color: var(--dark) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link.active::before {
+    top: 0;
+}
+
+.navbar-light .navbar-brand h1 {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-brand img {
+    max-height: 60px;
+    transition: .5s;
+}
+
+.sticky-top.navbar-light .navbar-brand img {
+    max-height: 45px;
+}
+
+@media (max-width: 991.98px) {
+    .sticky-top.navbar-light {
+        position: relative;
+        background: #FFFFFF;
+    }
+    .navbar-light .navbar-collapse {
+        margin-top: 15px;
+        border-top: 1px solid #DDDDDD;
+    }
+    .navbar-light .navbar-nav .nav-link,
+    .sticky-top.navbar-light .navbar-nav .nav-link {
+        padding: 10px 0;
+        margin-left: 0;
+        color: var(--dark) !important;
+    }
+    .navbar-light .navbar-nav .nav-link::before {
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link:hover,
+    .navbar-light .navbar-nav .nav-link.active {
+        color: var(--primary) !important;
+    }
+    .navbar-light .navbar-brand h1 {
+        background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .navbar-light .navbar-brand img {
+        max-height: 45px;
+    }
+}
+
+@media (min-width: 992px) {
+    .navbar-light {
+        position: absolute;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 999;
+    }
+    .sticky-top.navbar-light {
+        position: fixed;
+        background: #FFFFFF;
+    }
+    .sticky-top.navbar-light .navbar-nav .nav-link::before {
+        border-top-color: var(--primary);
+    }
+    .sticky-top.navbar-light .navbar-brand h1 {
+        background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+
+/*** Hero Header ***/
+
+.hero-header {
+    margin-bottom: 6rem;
+    padding: 16rem 0 0 0;
+    background: url(../img/bg-circle.png), url(../img/bg-triangle.png), url(../img/bg-bottom.png), linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-position: left 0px top 0px, right 0px top 50%, center bottom;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991.98px) {
+    .hero-header {
+        padding: 6rem 0 9rem 0;
+    }
+}
+
+
+/*** Feature ***/
+
+.feature-item {
+    transition: .5s;
+}
+
+.feature-item:hover {
+    margin-top: -15px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .08);
+}
+
+
+/*** Pricing ***/
+
+.pricing .nav {
+    padding: 2px;
+}
+
+.pricing .nav-link {
+    padding: 12px 30px;
+    font-weight: 500;
+    color: var(--dark);
+    background: #FFFFFF;
+}
+
+.pricing .nav-item:first-child .nav-link {
+    border-radius: 30px 0 0 30px;
+}
+
+.pricing .nav-item:last-child .nav-link {
+    border-radius: 0 30px 30px 0;
+}
+
+.pricing .nav-link.active {
+    color: #FFFFFF;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+
+/*** Screenshot ***/
+
+.screenshot-carousel {
+    position: relative;
+    width: 253px;
+    height: 500px;
+    padding: 15px;
+    margin-right: 30px;
+}
+
+.screenshot-carousel::before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: url(/screenshot-frame\ \(1\).png) center center no-repeat;
+    background-size: 253px 500px;
+    z-index: 1;
+}
+
+.screenshot-carousel .owl-item img {
+    position: relative;
+    width: 223px;
+    height: 470px;
+}
+
+.screenshot-carousel .owl-dots {
+    position: absolute;
+    top: 50%;
+    right: -30px;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.screenshot-carousel .owl-dot {
+    position: relative;
+    display: inline-block;
+    margin: 5px 0;
+    width: 15px;
+    height: 15px;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    border-radius: 15px;
+    transition: .5s;
+}
+
+.screenshot-carousel .owl-dot::after {
+    position: absolute;
+    content: "";
+    width: 5px;
+    height: 5px;
+    top: 5px;
+    left: 5px;
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.screenshot-carousel .owl-dot.active {
+    box-shadow: 0 0 10px var(--dark);
+}
+
+
+/*** Testimonial ***/
+
+.testimonial-carousel .owl-item .testimonial-item,
+.testimonial-carousel .owl-item .testimonial-item * {
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item {
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+}
+
+.testimonial-carousel .owl-item.center .testimonial-item h5,
+.testimonial-carousel .owl-item.center .testimonial-item p {
+    color: #FFFFFF !important;
+}
+
+.testimonial-carousel .owl-nav {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-carousel .owl-nav .owl-prev,
+.testimonial-carousel .owl-nav .owl-next {
+    margin: 0 12px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    background: linear-gradient(to bottom right, var(--primary), var(--secondary));
+    border-radius: 60px;
+    font-size: 18px;
+    transition: .5s;
+}
+
+.testimonial-carousel .owl-nav .owl-prev:hover,
+.testimonial-carousel .owl-nav .owl-next:hover {
+    background: linear-gradient(to bottom right, var(--secondary), var(--primary));
+}
+
+
+/*** Testimonial End ***/
+
+
+/**client logo**/
+
+
+/* bx-wrapper Styling */
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.pic-ctn {
+    width: 100vw;
+    height: 200px;
+}
+
+@keyframes display {
+    0% {
+        transform: translateX(200px);
+        opacity: 0;
+    }
+    5% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    10% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    15% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+    20% {
+        transform: translateX(-200px);
+        opacity: 0;
+    }
+}
+
+.pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+}
+
+.pic-ctn>img {
+    position: absolute;
+    top: 0;
+    left: calc(20% - 100px);
+    opacity: 0;
+    animation: display 12s infinite;
+}
+
+img:nth-child(2) {
+    animation-delay: 2s;
+}
+
+img:nth-child(3) {
+    animation-delay: 4s;
+}
+
+img:nth-child(4) {
+    animation-delay: 6s;
+}
+
+img:nth-child(5) {
+    animation-delay: 8s;
+}
+
+img:nth-child(6) {
+    animation-delay: 10s;
+}
+
+img:nth-child(7) {
+    animation-delay: 12s;
+}
+
+img:nth-child(8) {
+    animation-delay: 14s;
+}
+
+img:nth-child(9) {
+    animation-delay: 16s;
+}
+
+img:nth-child(10) {
+    animation-delay: 18s;
+}
+
+img:nth-child(11) {
+    animation-delay: 20s;
+}
+
+img:nth-child(12) {
+    animation-delay: 22s;
+}
+
+
+/** client loo end **/
+
+
+/*** Footer ***/
+
+.footer {
+    margin-top: 6rem;
+    padding-top: 9rem;
+    background: url(../img/bg-circle.png), url(../img/bg-triangle.png), url(../img/bg-top.png), linear-gradient(to bottom right, var(--primary), var(--secondary));
+    background-position: left 0px bottom 0px, right 0px top 50%, center top;
+    background-repeat: no-repeat;
+}
+
+.footer .btn.btn-social {
+    margin-right: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--light);
+    border: 1px solid rgba(256, 256, 256, .1);
+    border-radius: 40px;
+    transition: .3s;
+}
+
+.footer .btn.btn-social:hover {
+    color: var(--primary);
+}
+
+.footer .btn.btn-link {
+    display: block;
+    margin-bottom: 10px;
+    padding: 0;
+    text-align: left;
+    color: var(--light);
+    font-weight: normal;
+    transition: .3s;
+}
+
+.footer .btn.btn-link::before {
+    position: relative;
+    content: "\f105";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-right: 10px;
+}
+
+.footer .btn.btn-link:hover {
+    letter-spacing: 1px;
+    box-shadow: none;
+}
+
+.footer .copyright {
+    padding: 25px 0;
+    font-size: 14px;
+    border-top: 1px solid rgba(256, 256, 256, .1);
+}
+
+.footer .copyright a {
+    color: var(--light);
+}
+
+.footer .footer-menu a {
+    margin-right: 15px;
+    padding-right: 15px;
+    border-right: 1px solid rgba(255, 255, 255, .1);
+}
+
+.footer .footer-menu a:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+}
+
+@media screen and (min-width:962px) {
+    .main {
+        display: none;
+    }
+}
+
+
+/*whatsapp start*/
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    left: 15px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+
+/* logo start*/
+
+
+/**THE SAME CSS IS USED IN ALL 3 DEMOS**/
+
+
+/**gallery margins**/
+
+ul.gallery {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+
+/**To keep upscaled images visible on mobile, 
+    increase left & right margins a bit**/
+
+@media only screen and (max-width: 768px) {
+    ul.gallery {
+        margin-left: 15vw;
+        margin-right: 15vw;
+    }
+    /**TIP: Easy escape for touch screens,
+    give gallery's parent container a cursor: pointer.**/
+    .DivName {
+        cursor: -moz-grabbing
+    }
+}
+
+
+/* logo end*/
+    </style>
+</head>
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51" onresize = "fun()">
+    <div class="stickyicon-list">
+
+        <a href="#twitter" class="twitter">
+            <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/desok-technologies/" class="linkedin">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.facebook.com/DESOK-Technologies-105484972099360/" class="google">
+            <i class="fab fa-facebook"></i>
+        </a>
+        <a href="https://www.instagram.com/desok_technologies/" class="instagram">
+            <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.youtube.com/channel/UCju_xUIoWNw4pCP6xBhKRoQ" class="youtube">
+            <i class="fab fa-youtube"></i>
+        </a>
+    </div>
+    <div class="container-xxl bg-white p-5">
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">WELCOME TO DESOK TECHNOLOGIES</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <div id="top">
+            <!-- Navbar & Hero Start -->
+            <div class="container-xxl position-relative p-0" id="home">
+                <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                    <img src="img/DESOK Logo.png" alt="" width="68px">
+
+                    <a href="" class="navbar-brand p-0">
+
+                        <h1 class="m-0">Desok Technologies</h1>
+
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto py-0">
+                            <a href="#home" class="nav-item nav-link active">Home</a>
+                            <a href="#about" class="nav-item nav-link">About</a>
+                            <a href="#feature" class="nav-item nav-link">Services</a>
+                            <!--  <a href="" class="nav-item nav-link">Team</a>-->
+                            <a href="#pricing" class="nav-item nav-link">Projects</a>
+                            <a href="/tech training/index2.html" class="nav-item nav-link">Training</a>
+
+                            <a href="#contact" class="nav-item nav-link">Contact</a>
+                            <a href="" class="nav-item nav-link">Career</a>
+                        </div>
+                        <a href="login.php"btn btn-primary-gradient rounded-pill py-2 px-2" type="submit" style="font-size: 16px;">Login for DESOKER'S</a></button>
+                    </div>
+                </nav>
+
+
+
+
+                <!--- Text effec-->
+
+                <div class="container-xxl bg-primary hero-header">
+                    <div class="container px-lg-5">
+                        <div class="row g-5">
+                            <div class="col-lg-8 text-center text-lg-start">
+                                <!-- animated texr-->
+
+                                <!-- Text div-->
+                                <div class="typing-container">
+                                    <p class="text-1 width: 100px;">A Digital Firm Of Smart & Creative</p>
+                                    <p class="text-2 width: 100px;"> People who empowering Services in DESOK Technologies</p>
+                                </div>
+
+                                <!-- Text effect end-->
+                                <h1 class="text-white mb-4 animated slideInDown"> </h1>
+                                <h5 class="text-white pb-3 animated slideInDown">People at our core, we harness the power of technology, to drive towards digitally empowering global businesses for the people always believe in us</h5>
+                                <a href="#about us" class="btn btn-primary-gradient py-sm-3 px-4 px-sm-5 rounded-pill me-3 animated slideInLeft">Read More</a>
+                                <a href="#footer" class="btn btn-secondary-gradient py-sm-3 px-4 px-sm-5 rounded-pill animated slideInRight">Contact Us</a>
+                            </div>
+                            <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp" data-wow-delay="0.3s">
+                                <div class="owl-carousel screenshot-carousel">
+                                    <img class="img-fluid" src="img/screenshot apt.jpeg" alt="">
+                                    <img class="img-fluid" src="img/screenshot aptt.jpeg" alt="">
+                                    <img class="img-fluid" src="img/screenshot about.jpeg" alt="">
+                                    <img class="img-fluid" src="img/screen13.jpg" alt="">
+                                    <img class="img-fluid" src="img/screen14.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Navbar & Hero End -->
+            <!-- About Start -->
+            <div id="about us" class="container-xxl py-5" id="about">
+                <div class="container py-5 px-lg-5">
+                    <div class="row g-5 align-items-center">
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <h5 class="text-primary-gradient fw-medium">About Us</h5>
+                            <h1 class="mb-4">#1 Digital solution with Great experience</h1>
+                            <p class="mb-4">To provide game-changing solutions for crossing all business hurdles and to impart world-class training in software technologies.</p>
+                            <div class="row g-4 mb-4">
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="d-flex">
+                                        <i class="fa fa-cogs fa-2x text-primary-gradient flex-shrink-0 mt-1"></i>
+                                        <div class="ms-3">
+                                            <h2 class="mb-0" data-toggle="counter-up">1000 </h2>
+                                            <p class="text-primary-gradient mb-0">Trained Graduates</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="d-flex">
+                                        <i class="fa fa-comments fa-2x text-secondary flex-shrink-0 mt-1"></i>
+                                        <div class="ms-3">
+                                            <h2 class="mb-0" data-toggle="counter-up">500</h2>
+                                            <p class="text-secondary-gradient mb-0">Clients Reviews</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img class="img-fluid wow fadeInUp" data-wow-delay="0.5s" src="img/about.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+            <!-- Facts Start -->
+            <div class="container-xxl bg-primary-gradient fact py-5 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="container py-5 px-lg-5">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+                            <i class="fa fa-certificate text-white fa-3x w#f8f9fahite mb-3"></i>
+                            <h1 class="text-white mb-2" data-toggle="counter-up">4</h1>
+                            <p class="text-white mb-0">Years Experience</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+                            <i class="fas fa-users-cog fa-3x text-white mb-3"></i>
+                            <h1 class="text-white mb-2" data-toggle="counter-up">23</h1>
+                            <p class="text-white mb-0">Team Members</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+                            <i class="fa fa-users fa-3x text-white mb-3"></i>
+                            <h1 class="text-white mb-2" data-toggle="counter-up">104</h1>
+                            <p class="text-white mb-0">Satisfied Clients</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+                            <i class="fa fa-check fa-3x text-white mb-3"></i>
+                            <h1 class="text-white mb-2" data-toggle="counter-up">34</h1>
+                            <p class="text-white mb-0">Completed Projects</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Facts End -->
+
+            <!-- Features Start -->
+            <div class="container-xxl py-5" id="feature">
+                <div class="container py-5 px-lg-5">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Our Services</h5>
+                        <h1 class="mb-5">Awesome Features</h1>
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-eye text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">SEO & AMS</h5>
+                                <p class="m-0" align="justify">We are providing, the Best professional SEO services to create more visibility amongst their potential customers.Our AMS Digital is a leading Digital marketing and SEO services company that helps brands gain visibility.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                    <i class="fas fa-layer-group text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Web Designing & Development</h5>
+                                <p class="m-0" align="justify">Creating next level of websites using recent technologies and that too with Mobile Friendly websites that deliver unmatched user experiences irrespective of the device being used to access them.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-edit text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Hybrid Mobile Applications</h5>
+                                <p class="m-0" align="justify">We provide Hybrid mobile apps combine the technologies of both to create a software solution that is lightweight, efficient, easy to maintain and deploy, supports cross-platform compatibility, and is affordable from Desok
+                                    Team.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                    <i class="fas fa-shield-alt text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Enterprise Applications</h5>
+                                <p class="m-0" align="justify">With our Desok Technologies -Enterprise applications, businesses can minimize human intervention, boost productivity, and optimize operational efficiency through automation. This enables companies to scale without restraint
+                                    or worry of outgrowing traditional management methods.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-primary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                    <i class="fa fa-cloud text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Cloud Storage</h5>
+                                <p class="m-0" align="justify">Our cloud storage's increasing popularity and use, cloud security has become a major concern to protect data integrity, prevent hacking attempts, and avoid file or identity theft. Cloud storage offers a simple way to store
+                                    and/or move data in a secure and safe manner.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="feature-item bg-light rounded p-4">
+                                <div class="d-inline-flex align-items-center justify-content-center bg-secondary-gradient rounded-circle mb-4" style="width: 60px; height: 60px;">
+                                    <i class="fas fa-mobile-alt text-white fs-4"></i>
+                                </div>
+                                <h5 class="mb-3">Mobile App Development</h5>
+                                <p class="m-0" align="justify">Our passionate team of Android app designers and Android app developers leverage latest Android technologies to develop cutting-edge Android app solutions that offer stunning designs and impeccable UX to Android end-users.</p>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Features End -->
+
+
+            <!-- Screenshot Start -->
+
+
+            <div class="col-lg-4 d-flex justify-content-center justify-content-lg-end wow fadeInUp mx-auto d-bloc" data-wow-delay="0.3s">
+                <div class="owl-carousel screenshot-carousel">
+                    <img class="img-fluid" src="img/Screen10.jpg" alt="">
+                    <img class="img-fluid" src="img/screen7.jpg" alt="">
+
+                    <img class="img-fluid" src="img/Screenshot_android.png" alt="">
+                    <img class="img-fluid" src="img/Screen9.jpg" alt="">
+                    <img class="img-fluid" src="img/screen2.jpg" alt="">
+                </div>
+            </div>
+
+            <!-- Screenshot End -->
+
+            <!-- Pricing Start -->
+            <div class="container-xxl py-5" id="pricing">
+                <div class="container py-5 px-lg-5">
+                    <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                        <h5 class="text-primary-gradient fw-medium">Beyond Commitments</h5>
+                        <h1 class="mb-5">Our Projects</h1>
+                    </div>
+                    <div class="tab-class text-center pricing wow fadeInUp" data-wow-delay="0.1s">
+                        <ul class="nav nav-pills d-inline-flex justify-content-center bg-primary-gradient rounded-pill mb-5">
+                            <li class="nav-item">
+                                <button class="nav-link active" data-bs-toggle="pill" href="#tab-1">Websites</button>
+                            </li>
+                            <li class="nav-item">
+                                <button class="nav-link" data-bs-toggle="pill" href="#tab-2">Apps</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content text-start">
+                            <div id="tab-1" class="tab-pane fade show p-0 active">
+                                <div class="row g-4">
+                                    <div class="col-lg-4">
+                                        <div class="bg-light rounded">
+                                            <div class="border-bottom p-4 mb-4">
+                                                <h4 class="text-primary-gradient mb-1"> Lyon tech</h4>
+                                                <span>Mechinery company</span>
+                                                <span></span>
+                                            </div>
+                                            <div class="p-4 pt-0">
+                                                <h1 class="mb-3">
+
+                                                </h1>
+                                                <div class="d-flex justify-content-between mb-3"><span>Enabled location service </span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>cookies Storage support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <!--
+                                    <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                    -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bg-light rounded border">
+                                            <div class="border-bottom p-4 mb-4">
+                                                <h4 class="text-primary-gradient mb-1">Dr.PrasannaKumar's clinic</h4>
+                                                <span>Pediatric clinic,Vellore</span>
+                                            </div>
+                                            <div class="p-4 pt-0">
+                                                <h1 class="mb-3">
+
+                                                </h1>
+                                                <div class="d-flex justify-content-between mb-3"><span>HTML5 & CSS3</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Bootstrap v5</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Responsive Layout</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <!--
+                                    <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                    -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bg-light rounded">
+                                            <div class="border-bottom p-4 mb-4">
+                                                <h4 class="text-primary-gradient mb-1">Blaze Makeover</h4>
+                                                <span>Beauty parlour & Boutique</span>
+                                            </div>
+                                            <div class="p-4 pt-0">
+                                                <h1 class="mb-3">
+
+                                                </h1>
+                                                <div class="d-flex justify-content-between mb-3"><span>Gallery Options</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Mobile Responsive</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>AMS Enabled service</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-2"><span>Cross-browser Support</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <!--
+                                    <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                    -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="tab-2" class="tab-pane fade p-0">
+                                <div class="row g-4">
+                                    <div class="col-lg-4">
+                                        <div class="bg-light rounded">
+                                            <div class="border-bottom p-4 mb-4">
+                                                <h4 class="text-primary-gradient mb-1">Swara skin Care Clinic</h4>
+                                                <span>Dermatology Clinic,Sulur </span>
+                                            </div>
+                                            <div class="p-4 pt-0">
+                                                <h1 class="mb-3">
+
+                                                </h1>
+                                                <div class="d-flex justify-content-between mb-3"><span>Appointment Fixing</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Chat facility</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Database access With Notification</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <!--
+                                    <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                    -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bg-light rounded border">
+                                            <div class="border-bottom p-4 mb-4">
+                                                <h4 class="text-primary-gradient mb-1">CMC Neuro App</h4>
+                                                <span>Neurology Department,Vellore</span>
+                                            </div>
+                                            <div class="p-4 pt-0">
+                                                <h1 class="mb-3">
+
+                                                </h1>
+                                                <div class="d-flex justify-content-between mb-3"><span>Games With Neuro Guidelines</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Background Timer</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>CSV files Generation</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <!--
+                                    <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                    -->
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div class="bg-light rounded">
+                                            <div class="border-bottom p-4 mb-4">
+                                                <h4 class="text-primary-gradient mb-1">IT Training App</h4>
+                                                <span>Desok technologies</span>
+                                            </div>
+                                            <div class="p-4 pt-0">
+                                                <h1 class="mb-3">
+
+                                                </h1>
+                                                <div class="d-flex justify-content-between mb-3"><span>Digitalized Registrations</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Quiz With Timer & marks</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <div class="d-flex justify-content-between mb-3"><span>Cloud Firebase Database</span><i class="fa fa-check text-primary-gradient pt-1"></i></div>
+                                                <!--
+                                    <a href="" class="btn btn-primary-gradient rounded-pill py-2 px-4 mt-4">Get Started</a>
+                                    -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Pricing End -->
+            <!-- Process Start -->
+            <div class="container-xxl py-5">
+                <div class="container py-5 px-lg-5">
+                    <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
+
+                        <h1 class="mb-5">Our Team Members</h1>
+                    </div>
+                    <div class="row gy-5 gx-4 justify-content-center">
+                        <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
+                            <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/deepika.jpeg" alt="" width="142px">
+                                <h3 style="color: blueviolet;"> Deepika Parthasarathy</h3>
+                                <h5 class="mt-4 mb-3" style="color: blueviolet;">CEO</h5>
+                                <a href="#" button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Know Me </a></button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
+
+                            <div class="position-relative bg-light rounded pt-5 pb-4 px-4">
+                                <img class="img-fluid rounded-circle mb-4" src="img/team-2.jpg" alt="" width="122px">
+                                <h3 style="color: blueviolet;">Sowmya Nagarajan</h3>
+                                <h5 class="mt-4 mb-3" style="color: blueviolet;">CTO</h5>
+                                <a href="#" button class="btn btn-primary-gradient rounded-pill py-3 px-5" type="submit">Know Me </a></button>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
+                            <div class="position-relative bg-light rounded pt-4 pb-5 px-5">
+                                <br>
+                                <br>
+                                <br>
+                                <img class="img-fluid rounded-circle mb-4" src="img/our team.jpg" alt="" width="125px" height="250px">
+                                <h3 style="color: blueviolet;">Karthikeyan</h3>
+                                <h5 class="mt-0 " style="color: blueviolet;">COO</h5>
+
+                                <a href="#" button class="btn btn-primary-gradient rounded-pill py-3 px-5 disabled not-allowed" onclick="return false;" type="submit ">Know Me </a>
+
+                                </button>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Process Start -->
+
+
+            <!-- Download Start -->
+
+            <!-- Download End -->
+
+
+
+
+            <!--client logo-->
+            <div class="container-fluid ">
+                <div class="container ">
+                    <div class="row ">
+
+                        <div class="text-center pb-4 wow fadeInUp " data-wow-delay="0.1s ">
+
+                            <h1 class="mb-5 ">Our Clients</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row ">
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/thiruvallur university.png" class="img-thumbnail zoom " height="70 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/LyonTech.jpg " class="img-thumbnail zoom " height="70 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/katomoron.png" class="img-thumbnail zoom ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/logo1.png" class="img-thumbnail zoom ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/logo3.jpeg" class="img-thumbnail zoom " width="200 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/logo4.png " class="img-thumbnail zoom " width="200 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/logo6.jpeg " class="img-thumbnail zoom " width="200 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/logo2.png " class="img-thumbnail zoom " width="220 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/cmc.png " class="img-thumbnail zoom " width="150 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <br>
+                            <img src="/msme.jpg " class="img-thumbnail zoom " height="150 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/natpu karangal trust.png " class="img-thumbnail zoom " width="150 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/logo.png" class="img-thumbnail zoom ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/blaze make over.jpg " class="img-thumbnail zoom " width="150 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/bhosys.png " class="img-thumbnail zoom " width="300 ">
+
+                        </figure>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 ">
+                        <figure>
+                            <img src="/dotworld.jpg " class="img-thumbnail zoom " width="300 ">
+
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--clien logo end-->
+
+        <!-- Testimonial Start -->
+        <div class="container-xxl py-5 " id="review ">
+            <div class="container py-5 px-lg-5 ">
+                <div class="text-center wow fadeInUp " data-wow-delay="0.1s ">
+                    <h5 class="text-primary-gradient fw-medium ">Testimonial</h5>
+                    <h1 class="mb-5 ">What Our Clients Says!</h1>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp " data-wow-delay="0.1s ">
+                    <div class="testimonial-item rounded p-4 ">
+                        <div class="d-flex align-items-center mb-4 ">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1 " src="img/testmonial2.jpeg " style="width: 85px; height: 85px; ">
+                            <div class="ms-4 ">
+                                <h5 class="mb-1 "> Rakesh</h5>
+                                <p class="mb-1 ">Android Developer</p>
+                                <div>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0 ">
+                            good training by professional trainers.And Good Communication.</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4 ">
+                        <div class="d-flex align-items-center mb-4 ">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1 " src="img/testmonial3.jpg " style="width: 85px; height: 85px; ">
+                            <div class="ms-4 ">
+                                <h5 class="mb-1 ">Rekha </h5>
+                                <p class="mb-1 ">Flutter Developer</p>
+                                <div>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0 ">Professional trainers,excellent teaching, friendly environment</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4 ">
+                        <div class="d-flex align-items-center mb-4 ">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1 " src="img/testmonial1.jpeg " style="width: 85px; height: 85px; ">
+                            <div class="ms-4 ">
+                                <h5 class="mb-1 ">Giridhar </h5>
+                                <p class="mb-1 ">Android Developer</p>
+                                <div>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0 ">Very good experience to be a part of Desok Technologies, good trainees, and teaching process is very good, it's very usefull to career</p>
+                    </div>
+                    <div class="testimonial-item rounded p-4 ">
+                        <div class="d-flex align-items-center mb-4 ">
+                            <img class="img-fluid bg-white rounded flex-shrink-0 p-1 " src="img/testmonial4.jpg " style="width: 85px; height: 85px; ">
+                            <div class="ms-4 ">
+                                <h5 class="mb-1 ">Kamila </h5>
+                                <p class="mb-1 ">Flutter Developer</p>
+                                <div>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                    <small class="fa fa-star text-warning "></small>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-0 ">We had a valuable training session and we have learnt many valuable information about web development. we r thankful to the trainers who trained us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+
+        <!-- Contact Start -->
+        <div class="container-xxl py-5 " id="contact ">
+            <div class="container py-5 px-lg-5 ">
+                <div class="text-center wow fadeInUp " data-wow-delay="0.1s ">
+                    <h5 class="text-primary-gradient fw-medium ">Contact Us</h5>
+                    <h1 class="mb-5 ">Get In Touch!</h1>
+                </div>
+                <div class="row justify-content-center ">
+                    <div class="col-lg-9 ">
+                        <div class="wow fadeInUp " data-wow-delay="0.3s ">
+                            <form>
+                                <div class="row g-3 ">
+                                    <div class="col-md-6 ">
+                                        <div class="form-floating ">
+                                            <input type="text " class="form-control " id="name " placeholder="Your Name ">
+                                            <label for="name ">Your Name</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 ">
+                                        <div class="form-floating ">
+                                            <input type="email " class="form-control " id="email " placeholder="Your Email ">
+                                            <label for="email ">Your Email</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 ">
+                                        <div class="form-floating ">
+                                            <input type="text " class="form-control " id="subject " placeholder="Subject ">
+                                            <label for="subject ">Subject</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 ">
+                                        <div class="form-floating ">
+                                            <textarea class="form-control " placeholder="Leave a message here " id="message " style="height: 150px "></textarea>
+                                            <label for="message ">Message</label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12 text-center ">
+                                        <button class="btn btn-primary-gradient rounded-pill py-3 px-5 " type="submit ">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact End -->
+
+
+        <!-- Footer Start -->
+        <div id="footer " class="container-fluid bg-primary text-light footer wow fadeIn " data-wow-delay="0.1s ">
+            <div class="container py-5 px-lg-5 ">
+                <div class="row g-5 ">
+                    <div class="col-md-6 col-lg-3 ">
+                        <h4 class="text-white mb-4 ">Address</h4>
+                        <p><i class="fas fa-map-marker-alt me-3 "></i>H.O.14/5c,Gopal Pillai Street Sulur, Coimbatore-641402 </p>
+                        <p><i class="fas fa-map-marker-alt me-3 "></i>B.O.NO 625/4,p-14 First floor Samy street,ATG Nagar Exrension,Dharapadavedu, Katpadi, Vellore-632007 </p>
+
+                        <p><i class="fas fa-phone-alt me-3 "> <a style="color: white ;" href="tel:+91 9566340694">+91 9566340694</a></i></p>
+                        <p><i class="fa fa-envelope me-3 "></i>info@desoktech.com</p>
+                        <div class="d-flex pt-2 ">
+                            <a class="btn btn-outline-light btn-social " href=" "><i class="fab fa-twitter "></i></a>
+                            <a class="btn btn-outline-light btn-social " href="https://www.facebook.com/DESOK-Technologies-105484972099360/ "><i class="fab fa-facebook-f "></i></a>
+                            <a class="btn btn-outline-light btn-social " href="https://www.instagram.com/desok_technologies/ "><i class="fab fa-instagram "></i></a>
+                            <a class="btn btn-outline-light btn-social " href="https://www.linkedin.com/in/desok-technologies/ "><i class="fab fa-linkedin-in "></i></a>
+                            <a class="btn btn-outline-light btn-social " href=" "><i class="fab fa-whatsapp "></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ">
+                        <h4 class="text-white mb-4 ">Quick Link</h4>
+                        <a class="btn btn-link " href=" ">About Us</a>
+                        <a class="btn btn-link " href=" ">Contact Us</a>
+                        <a class="btn btn-link " href=" ">Training</a>
+                        <a class="btn btn-link " href=" ">Services</a>
+                        <a class="btn btn-link " href=" ">Career</a>
+                    </div>
+                    <div class="col-md-6 col-lg-3 ">
+                        <div id="map "><br><br><br>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.125332672505!2d79.13530021461193!3d12.963830990860972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bad47c92d497f8f%3A0xb52dc63ec9ef9055!2sDesok%20Technologies!5e0!3m2!1sen!2sin!4v1649429738723!5m2!1sen!2sin "
+                                width="100% " height="200 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="container px-lg-5 ">
+                <div class="copyright ">
+                    <div class="row ">
+                        <div class="col text-center text-md-start mb-md-0 ">
+                            &copy;
+                            <a class="border-bottom " href="# "></a>All Rights Reserved by Desok Technologies.
+                        </div>
+                        <div class="col text-center text-md-end ">
+                            <div class="footer-menu ">
+
+                                <a href=" ">Home</a>
+                                <a href=" ">Help</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+        <!--whatsapp-->
+        <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css ">
+        <a href="https://wa.me/message/QYQFXPY7VS4FF1" class="float " target="_new ">
+            <i class="fa fa-whatsapp my-float "></i>
+        </a>
+        <!--whats app end-->
+        <!-- Back to Top -->
+        <!-- Back to Top -->
+        <a href="#top " class="btn btn-lg btn-lg-square back-to-top pt-2 "><i class="bi bi-arrow-up text-white "></i></a>
+    </div>
+    </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js "></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js "></script>
+    <script src="lib/wow/wow.min.js "></script>
+    <script src="lib/easing/easing.min.js "></script>
+    <script src="lib/waypoints/waypoints.min.js "></script>
+    <script src="lib/counterup/counterup.min.js "></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js "></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js "></script>
+</body>
+
+</html>

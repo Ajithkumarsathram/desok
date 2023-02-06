@@ -1,0 +1,136 @@
+:root {
+    --button-size: 22px;
+    --button-offset: 22px;
+    --border-color: #00e;
+    --button-size-md: 30px;
+    --button-offset-md: 30px;
+    --gallery-item-size: 300px;
+    --gallery-item-size-md: 500px;
+}
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    align-items: center;
+    background-color: #fee01e;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.Nav {
+    display: flex;
+    position: relative;
+    padding: 5px;
+    /* leave room for SVG stroke */
+}
+
+.Nav svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.Nav-button {
+    background-color: transparent;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    height: var(--button-size);
+    width: var(--button-size);
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    z-index: 1;
+}
+
+.Nav-button:not(:first-child) {
+    margin-left: var(--button-offset);
+}
+
+@media (min-width: 600px) {
+    .Nav-button {
+        height: var(--button-size-md);
+        width: var(--button-size-md);
+    }
+    .Nav-button:not(:first-child) {
+        margin-left: var(--button-offset-md);
+    }
+}
+
+.Nav-button:focus {
+    outline: none;
+}
+
+.Gallery-wrapper {
+    width: var(--gallery-item-size);
+    overflow: hidden;
+}
+
+.Gallery {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.Gallery::before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #00e;
+}
+
+.Gallery-container {
+    display: flex;
+    transition-property: transform;
+    transition-duration: 600ms;
+    transition-timing-function: cubic-bezier(0.8, 0, 0.55, 0.94);
+}
+
+.Gallery-item {
+    flex-shrink: 0;
+    padding-right: 20px;
+}
+
+.Gallery-itemContent {
+    width: var(--gallery-item-size);
+    height: calc(var(--gallery-item-size) * .56);
+    background-color: #FFF;
+    border: 2px solid #00e;
+    color: #00e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 68px;
+    position: relative;
+}
+
+@media (min-width: 600px) {
+    .Gallery-wrapper {
+        width: var(--gallery-item-size-md);
+    }
+    .Gallery-itemContent {
+        width: var(--gallery-item-size-md);
+        height: calc(var(--gallery-item-size-md) * .56);
+        font-size: 96px;
+    }
+}

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> React js Course</title>
+        <link href="../img/favicon (2).png" rel="icon">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="/style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="http://themes.audemedia.com/html/goodgrowth/css/owl.theme.default.min.css">
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.1/owl.carousel.min.js"></script>
+        <style>
+          @import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
+          body {
+              background-color: #eee;
+          }
+          
+          .navbar-nav>li>a {
+              text-transform: uppercase;
+              font-size: 12px;
+              margin-right: 20px;
+              color: #fff;
+          }
+          
+          .navbar-toggler {
+              padding: .20rem .50rem;
+              font-size: 1.25rem;
+              line-height: 1;
+              background-color: transparent;
+              border: 1px solid white;
+          }
+          
+          .nav-link {
+              color: #fff !important;
+          }
+          
+          .wrapper {
+              width: 100%;
+              position: absolute;
+              height: 100%;
+              background-color: #f5a425;
+              clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 71% 100%);
+              transition: 1s all;
+          }
+          
+          .navbar-brand {
+              color: #fff;
+              font-family: 'Allerta Stencil', sans-serif;
+              margin-bottom: 4px;
+              font-size: 27px;
+          }
+          
+          .navbar-red:hover .wrapper {
+              clip-path: polygon(81% 0, 100% 0, 100% 50%, 100% 100%, 65% 100%);
+          }
+          
+          .navbar-brand:hover {
+              color: #fff;
+          }
+          
+          .navbar-red {
+              background-color: rgba(22, 34, 57, 0.99);
+              color: #fff;
+          }
+          
+          .all-show {
+              z-index: 10;
+          }
+          p{
+              font-size: large;
+          }
+      </style>
+    </head>
+    <body style="background-color: rgba(22,34,57,0.99) ; color: rgb(214, 212, 206);">
+        <!--nav bar open-->
+        <nav class="navbar navbar-expand-lg navbar-red navbar-dark sticky-top">
+            <div class="wrapper">
+              
+            </div>
+        <div class="container-fluid all-show">
+        <a class="navbar-brand" href="#"><em style="color: #f5a425;">DESOK</em> TECHNOLOGIES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: 14px;" aria-current="page" href="/website/desoktech/desok_home/index.html">Home</a>
+            </li>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: 14px;" href="#">About Us</a>
+            </li>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+        
+            <li class="nav-item">
+              <a class="nav-link"  style="font-size: 14px;" href="#">Courses</a>
+            </li>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <li class="nav-item">
+              <a class="nav-link"  style="font-size: 14px;" href="#">syllabus</a>
+            </li>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <li class="nav-item">
+              <a class="nav-link"  style="font-size: 14px;" href="/Personal/index.html"><b>Personality development</b></a>
+            </li>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <li class="nav-item">
+              <a class="nav-link"  style="font-size: 14px;" href="/quiz/Quiz.html">Quiz</a>
+            </li>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  
+            <li class="nav-item">
+              <a class="nav-link"  style="font-size: 14px;" href="#">Contact</a>
+            </li>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+           
+            
+            
+          </ul>
+        </div>
+        </div>
+        </nav>
+        <!--nav bar end-->
+        <br>
+        <br>
+        <br>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <br>
+                    <br>
+
+                    <h3>Get Hands-on knowledge with Real-Time projects from our dedicated Reactjs Development Training Courses.&lt;wbr&gt; </h3>
+                    <br>
+                    <br>
+                    <p>Power your career with great Full Stack learning and specialize on PHP, Python, HTML, CSS, Javascript, Angular JS and Node.js.</p>
+                   <!-- <button type="button" class="btn btn-warning" ><i style="font-size:24px"  class="fa"> Enquiry Now  &#xf178;</i></button>-->
+
+                </div>
+                <div class="col-sm-6">
+                  <img src="/tech training/assets/images/vector.webp" alt="" width="400px">
+
+
+                </div>
+            </div>
+          </div>
+          <br>
+          <br>
+          <br>
+
+          <div class="container rounded-3" style="background-color: #f5a425; color: black;"><br>
+            <div class="row"><br>
+                <div class="col-sm-3">
+                    <h4> <b> Regular Training</b></h4><br>
+                    <table>
+                        <tr>
+                            <th class="fa"> <b> &#xf073; Duration </b></th>
+                            <td> <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3 Months </b></td>
+                        </tr>
+    
+                        <tr>
+                            <th class="fa"> <b> &#xf017; Hours</b></th>
+                            <td> <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4Hrs/Day</b>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-3">
+                    <h4> <b> Fast Track Training program</b></h4><br>
+                    <table>
+                        <tr>
+                            <th class="fa"> <b> &#xf073; Duration </b></th>
+                            <td> <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;14days(2weeks) </b></td>
+                        </tr>
+    
+                        <tr>
+                            <th class="fa"> <b> &#xf017; Hours</b></th>
+                            <td> <b> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;6Hrs/Day </b></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="col-sm-3">
+                    <br><br>
+                    <h3> <i class="fa fa-shopping-bag" aria-hidden="true"></i> 100% Job <br> Assistance</h3>
+                </div>
+                <div class="col-sm-3"><br>
+                    <br>
+    
+                    <h3>
+                        <h2 class="fa"> &#xf108; <b>   Live Projects <br> Training</b></h2>
+                    </h3>
+                </div>
+    
+            </div><br>
+        </div>
+          <div class="container-fluid" style="background-color:rgba(22,34,57,0.99) ;"><br>
+            <h3 align="center" style="color: #f5a425 ;"><i>Course Overview</i></h3><br>
+          </div>
+
+          <div class="container">
+            <br>
+            <br>
+            <h2 align="center"> <b style="color: #f5a425 ;">REACT JS DEVELOPMENT TRAINING COURSE</b></h2><br>
+            <p>
+                ReactJS a Facebook product is an open-source front-end Javascript library that helps developers construct easy User Interfaces(UI). Actually, it was found 7 years before in 2013 that runs on a Web platform. A clear Java Scripting knowledge is fundamental for ReactJS development.
+                 Get explore the Javascript and ReactJs live coding experience at our Desok Technologies for developing interactive and scalable web applications.
+            </p> <br>
+            <br>
+
+            <h2 align="center"> <b style="color: #f5a425 ;"> KEY FEATURES OF REACTJS DEVELOPMENT COURSE</b></h2>
+            <br>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p><i class="fa fa-arrow-right" aria-hidden="true"></i>  You will be learning the basics of Javascript and advanced Javascript coding and its relevant libraries in Reactjs training.</p>
+                    <br>
+                    <p><i class="fa fa-arrow-right" aria-hidden="true"></i>  React course training will facilitate how to build User Interface (UI) and UI components.</p>
+                    <br>
+                    <p><i class="fa fa-arrow-right" aria-hidden="true"></i> React course training will facilitate how to build User Interface (UI) and UI components.</p>
+                </div>
+                <div class="col-sm-6">
+                    <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn A-Z in JSX scripting and JSX components.</p>
+                    <br>
+                    <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Traverse through the ReactJS features like Flutter, React Router, and Flux.</p>
+                    <br>
+                    <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn this trusted Facebook product and develop scalable web apps with quality results</p>
+                </div>
+            </div>
+          </div>
+          <div class="container-fluid"><br>
+            <div class="container">
+                <h2 align="center"> <b style="color: #f5a425 ;"> WHY REACTJS DEVELOPMENT COURSE ? </b></h2>
+                <br>
+                <p>The future of ReactJS development is attractive. It looks promising because of the steady growth in demand of these professionals. You will learn and deploy code in our specialized ReactJS training at desok Technologies</p>
+                <div class="row"><br><br><br>
+                    <br>
+
+                    <div class="col-sm-6"><br><br><br><img src="/tech training/assets/images/react.webp" alt="" width="75%"></div>
+                    <div class="col-sm-6">
+                        <p>The reason is because of its stability and readability of its components. ReactJs based web applications are robust and highly interactive and 
+                            choose the right to react training courses covering its features and components. Our Desok Technologies is advanced in training updated Javascript coding to freshers and hence best react course is given as hands-on training to trainees. Understanding the importance and job nature of React developers, we offer the best react course to the student community and foresee them as actual Java developers </p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Train from professionals with industry experience</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i>Learn theoretical concepts and gain hands-on training simultaneously</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Real time Hands-On Practical Experience Training to imbibe corporate practices</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Get certified at the end of the training</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Receive placement support once the training is completed</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Getting exposure to latest technology up gradations.</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Advanced lab facility and most updated syllabus and materials will be provided with learning tools for easy learning</p>
+                        <p><i class="fa fa-arrow-right" aria-hidden="true"></i> You will have the access to contact the trainers at any time.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+          </div>
+          <br><br><br>
+          <div class="container">
+            <h3 align="center"> <b style="color: #f5a425 ;">WHY Desok Technologies FOR REACTJS LEARNING?</b></h3>
+            <br>
+            <br>
+            <p align="center">Desok Technologies Node.js Development program provides extensive hands-on training in front-end, middleware, and back-end technology skills along with phase-end and capstone projects based on real business scenarios</p>
+          </div>
+
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2">
+                <p>Trainers are certified professionals with over 9 years of experience in their respective domains</p>
+              </div>
+              <div class="col-sm-2"> <p>Trained more than 500+ students in a year.</p></div>
+              <div class="col-sm-2"><p>Trainers teach the students to learn the practices employed by the top IT companies</p> </div>
+              <div class="col-sm-2"> <p>Have experienced multiple real-time projects in thier industries</p></div>
+              <div class="col-sm-2"> <p>Industry-experts and subject specialists who have mastered running applications provide Best ReactJS training to the students.</p></div>
+              <div class="col-sm-2"><p>We have restricted the batch size to empower students to have great understanding and communication between our trainers and students</p></div>
+            </div>
+          </div>
+          <div class="container">
+            <img src="/tech training/assets/images/meanstack1.webp" alt="" width="100%" height="100%">
+          </div>
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-2"><p>Strong Theoretical & Practical Knowledge</p></div>
+              <div class="col-sm-2"><p>Well connected with Hiring HRs in various companies</p></div>
+              <div class="col-sm-2"> <p>Expert level Subject Knowledge and fully up-to-date on the real-world industry applications</p></div>
+              <div class="col-sm-2"><p>Trainers also help candidates to get placed in their respective company by Employee Referral / Internal Hiring process</p></div>
+              <div class="col-sm-2"> <p>Interactive online training classes permit complete interactivity between the student and the trainer</p></div>
+            </div>
+          </div>
+          <div class="container-fluid" >
+          <div class="container">
+            <br>
+            <br>
+
+            <h3 align="center"> <b > Prerequisite </b></h3>
+            <br>
+            <p align="center">As our Desok Technologies is a Java specialized training institute, you can effectively gain Reactjs knowledge by enrolling in the complete React developer course. Get exposed to Javascript practically at Desok Technologies and kick-start your career as React Developer</p>
+          </div>
+        </div>
+        <div class="container-fluid"  >
+          <div class="container">
+          <h2 align="center" style="color: #f5a425 ; background-color: black;"> Course Syllabus</h2>
+          <h2 style="color: #f5a425 ;"> ReactJS Development Course Highlights</h2>
+          <p>ReactJS development and its training courses are the top preferred by the young developers right now. The reason is because of its stability and readability of its components. </p>
+          <div class="container" >
+            <p>Introduction to Web Development and React</p><hr>
+            <p>React Components</p><hr>
+            <p> Navigation with Routes</p><hr>
+            <p>JSX & Flux</p><hr>
+            <p>State Management using Redux</p><hr>
+            <p>Creating Dynamic UI In React</p><hr>
+            <p>Integration With Other Libraries</p><hr>
+            
+          </div>
+        </div>
+        </div>
+        <div class="container">
+            <h1 align="center"><b style="color: #f5a425 ;">Our Training Methodology</b></h1>
+            <p align="center">Check out our innovative key features in training methodologies. Our flexible training mechanisms incorporate all techniques right from knowledge assessment till setting placement records. </p>
+            <div class="row">
+              <div class="col-sm-6">
+                <img  class="rounded-3"  style="background-color: white ;" src="/tech training/assets/images/android2.webp" alt="" width="100%">
+              </div>
+              <div class="col-sm-6">
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i>  Train from professionals with industry experience</p>
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Learn theoretical concepts and gain hands-on training simultaneously</p>
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Real time Hands-On Practical Experience Training to imbibe corporate practices</p>
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Get certified at the end of the training</p>
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Receive placement support once the training is completed</p>
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Getting exposure to latest technology up gradations.</p>
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i> Advanced lab facility and most updated syllabus and materials will be provided with learning tools for easy learning</p>
+                <p><i class="fa fa-arrow-right" aria-hidden="true"></i> You will have the access to contact the trainers at any time.</p>
+            </div>
+            </div>
+          </div>  
+
+        
+          <br>
+          <br>
+          <br>
+           <!--client logo-->
+    <div class="container ">
+      <div class="container ">
+          <div class="row ">
+
+              <div class="text-center pb-4 wow fadeInUp " data-wow-delay="0.1s ">
+
+                  <h1 class="mb-5 ">Our Clients</h1>
+              </div>
+          </div>
+      </div>
+
+      <div class="row ">
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/thiruvallur university.png " class="img-thumbnail zoom " height="70 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/LyonTech.jpg " class="img-thumbnail zoom " height="70 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/katomoron.png " class="img-thumbnail zoom ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/logo1.png " class="img-thumbnail zoom ">
+
+              </figure><br>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/logo3.jpeg " class="img-thumbnail zoom " width="200 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/logo4.png " class="img-thumbnail zoom " width="200 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/logo6.jpeg " class="img-thumbnail zoom " width="200 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/logo2.png " class="img-thumbnail zoom " width="220 ">
+
+              </figure><br>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/cmc.png " class="img-thumbnail zoom " width="150 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <br>
+                  <img src="/img/msme.jpg " class="img-thumbnail zoom " height="150 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/natpu karangal trust.png " class="img-thumbnail zoom " width="150 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/logo.png " class="img-thumbnail zoom ">
+
+              </figure><br>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/blaze make over.jpg " class="img-thumbnail zoom " width="150 ">
+
+              </figure><br>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/bhosys.png " class="img-thumbnail zoom " width="300 ">
+
+              </figure>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3 ">
+              <figure>
+                  <img src="/img/dotworld.jpg " class="img-thumbnail zoom " width="300 ">
+
+              </figure>
+          </div>
+      </div>
+  </div>
+  </div>
+  <!--clien logo end-->
+
+         
+          </div><br><br>
+          <div style="background-color: #f5a425; color: black; "  class="container rounded-2 bg-blue"><br><br>
+            <div class="row"><br><br>
+              <h1 style="color: white ;" align="center">Job Outlook</h1>
+              <div class="col-sm">            
+                <i class="fa fa-group" style="font-size:36px"></i>
+                <h3>Latest Technologies</h3>
+                <p>Learning the latest technologies in React.JS enables you to have a direct impact on your career./p>
+
+              </div>
+              <div class="col-sm">
+                <i class="fa fa-bar-chart" aria-hidden="true" style="font-size:36px"></i>
+                <h3>Future Scope of an React.JS</h3>
+                <p>The future of react.JS is attractive. It looks promising because of the steady growth in-demand of these professionals.</p>
+              </div>
+              <div class="col-sm">
+                <i class="fa fa-industry" aria-hidden="true" style="font-size:36px"></i><br>
+                <h3>Industry Growth</h3>
+
+                <p>
+                    30% Annual Growth for Big Data jobs by 2021. You could also develop an application by yourself with a React.JS development course.
+                </p>
+                <br><br><br>
+              </div><br><br><br>
+              <h1 style="color: white ;">Job titles include</h1><br><br><br>
+              <div class="row">
+                <div class="col"><p> &nbsp;<i class='fa fa-circle'></i> React.JS Developer</p></div>
+                
+              </div>
+            </div>
+
+          </div><br><br>
+          
+          <div style="background-image:url(/img/coming-soon-bg.jpg); color: #fff;" class="container-fluid">
+            <div class="container">
+                <br><br>
+                <div class="row">
+                    <h1 align="center" style="color: #f5a425 ;">Related Courses</h1>
+                    <h3 align="center">Learn new skills, pursue your interests or advance your career with our distinctive course catalogues. Our updated syllabus on the below courses cover all Industry standards as per requirements.</h3><br><br>
+    
+                    <br><br><br><br>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/mean.webp" alt="Full Stack Development" width="200px" height="100"><br><br>
+                        <h4><a style="color: white ;" href="..tech training/Index3.html">Full Stack Developer MEAN</a></h1>
+    
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/android.webp" alt="Android Training" width="200" height="100">
+                        <h4><a style="color: white ;" href="../tech training/andriod.html">Android Training</a></h1>
+    
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/angular.webp" alt="Angular Js Training" width="200px" height="100">
+                        <h4><a style="color: white ;" href="../tech training/Angular .html">Angular Js Training</a></h1>
+    
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/devops.webp" alt="DevOps Training" width="200px" height="100">
+                        <h4><a style="color: white ;" href="../tech training/DevOps Development.html">DevOps Training</a></h1>
+    
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/java.jpg" alt="Core Java Development" width="200px" height="100">
+                        <h4><a style="color: white ;" href="">Core Java Development</a></h1>
+    
+                    </div>
+                </div>
+                <br><br>
+                <div class="row">
+    
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/nodejs.webp" alt="Node js Development" width="200px" height="100">
+                        <h4><a style="color: white ;" href="../tech training/node.html">Node js Development</a></h1>
+    
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/reactjs.webp" alt="React js Training" width="200px" height="100">
+                        <h4><a style="color: white ;" href="../tech training/react.html">React js Training</a></h1>
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/php.webp" alt=" PHP Development" width="200px" height="100"><br><br>
+                        <h4><a style="color: white ;" href="../tech training/php.html">PHP Development</a></h1>
+    
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/python.webp" alt="Python Development" width="200px" height="100">
+                        <h4><a style="color: white ;" href="../tech training/PYTHON.HTML">Python Development</a></h1>
+    
+                    </div>
+                    <div class="col-sm">
+                        <img src="/tech training/assets/images/mern.webp" alt="" width="200px" height="100">
+                        <h4><a style="color: white ;" href="../tech training/Index3.html">Full Stack Developer MERN</a></h1>
+    
+                    </div>
+                </div><br><br>
+            </div>
+    </body>
+</html>
